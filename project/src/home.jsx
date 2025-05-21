@@ -36,25 +36,47 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
       >
-        {[
-          { text: 'Progress', color: 'blue', to: '/dashboard' },
-          { text: 'Achievement', color: 'green', to: '/dashboard' },
-          { text: 'Goals', color: 'purple', to: '/dashboard' },
-        ].map((btn, idx) => (
-          <motion.div
-            key={idx}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            transition={{ type: 'spring', stiffness: 300 }}
+        {/* Progress */}
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: 'spring', stiffness: 300 }}
+        >
+          <Link
+            to="/dashboard"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 w-full rounded-lg text-center shadow-md block"
           >
-            <Link
-              to={btn.to}
-              className={`bg-${btn.color}-600 hover:bg-${btn.color}-700 text-white px-4 py-3 w-full rounded-lg text-center shadow-md block`}
-            >
-              {btn.text}
-            </Link>
-          </motion.div>
-        ))}
+            Progress
+          </Link>
+        </motion.div>
+
+        {/* Achievement */}
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: 'spring', stiffness: 300 }}
+        >
+          <Link
+            to="/dashboard"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-3 w-full rounded-lg text-center shadow-md block"
+          >
+            Achievement
+          </Link>
+        </motion.div>
+
+        {/* Goals */}
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{ type: 'spring', stiffness: 300 }}
+        >
+          <Link
+            to="/dashboard"
+            className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-3 w-full rounded-lg text-center shadow-md block"
+          >
+            Goals
+          </Link>
+        </motion.div>
       </motion.div>
     </motion.div>
   )
