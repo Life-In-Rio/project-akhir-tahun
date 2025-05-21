@@ -1,0 +1,77 @@
+{
+  "mapel": [
+    {
+      "id": 1,
+      "name": "📚 Ilmu Syariah",
+      "progress": 85,
+
+      "description": "ilmu yang mempelajari ilmu syariah secara mendalam."
+    },
+
+    {
+      "id": 2,
+      "name": "🛠️ Ilmu Alat",
+      "progress": 80,
+
+      "description": "Mempelajari ilmu mengenai nahwu dan shorof."
+    },
+    {
+      "id": 3,
+      "name": "🔤 Tajwid",
+      "progress": 90,
+
+      "description": "Memperbaiki bacaan Al-Qur’an dengan tajwid yang benar."
+    },
+    {
+      "id": 4,
+      "name": "📖🕌 Tahfidz",
+      "progress": 27,
+
+      "description": "Menghafal Al-Qur’an secara bertahap."
+    },
+    {
+      "id": 5,
+      "name": "💻 IT",
+      "progress": 100,
+
+      "description": "Pengembangan skill IT dan pemrograman."
+    },
+    {
+      "id": 6,
+      "name": "📚 Bahasa Arab",
+      "progress": 75,
+
+      "description": "Pemahaman dan penggunaan bahasa Arab dalam kehidupan sehari-hari."
+    }
+  ],
+  "ekskul": [
+    {
+      "id": 1,
+      "name": "🏊 Renang",
+      "progress": 95,
+
+      "description": "Melatih gaya bebas dan gaya katak."
+    },
+    {
+      "id": 2,
+      "name": "⚽ Futsal",
+      "progress": 95,
+
+      "description": "Strategi dan teknik futsal."
+    },
+    {
+      "id": 3,
+      "name": "🏹 Panahan",
+      "progress": 85,
+
+      "description": "Mengasah kemampuan memanah dan tekniknya."
+    },
+    {
+      "id": 4,
+      "name": "🥋 Taekwondo",
+      "progress": 85,
+
+      "description": "Latihan bela diri taekwondo."
+    }
+  ]
+}
