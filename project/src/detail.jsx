@@ -49,7 +49,7 @@ const Dashboard = () => {
                 />
               </div>
               <p className="mt-2 text-blue-800 font-semibold">
-                Progress: {item.progress}% 
+                Progress: {item.progress}%
               </p>
             </motion.div>
           ))}
@@ -96,13 +96,19 @@ const Dashboard = () => {
         </div>
       </section>
 
-      {/* Tombol Back di bawah */}
-      <div className="mt-12 text-center">
-        <Link
-          to="/"
-          className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded shadow"
-        >
-          ← Back to Home
+      {/* Tombol Back */}
+      <div className="mt-16 text-center">
+        <Link to="/">
+          <motion.button
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-xl shadow-md"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            ← Back to Home
+          </motion.button>
         </Link>
       </div>
     </div>
