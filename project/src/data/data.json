@@ -4,44 +4,44 @@
       "id": 1,
       "name": "📚 Ilmu Syariah",
       "progress": 95,
-
-      "description": "ilmu yang mempelajari ilmu syariah secara mendalam."
+      "description": "ilmu yang mempelajari ilmu syariah secara mendalam.",
+      "details": ["Menguasai fiqih dan Aqidah dasar", "Mempelajari hukum waris","Mempelajari beberapa Hadist"]
     },
 
     {
       "id": 2,
       "name": "🛠️ Ilmu Alat",
       "progress": 80,
-
-      "description": "Mempelajari ilmu mengenai nahwu dan shorof."
+      "description": "Mempelajari ilmu mengenai nahwu dan shorof.",
+      "details": ["Mempelajari ilmu nahwu dan shorof","Mempelajari ilmu al-Balaghah, at-Ta‘bir, dan al-Adab"]
     },
     {
       "id": 3,
       "name": "🔤 Tajwid",
       "progress": 90,
-
-      "description": "Memperbaiki bacaan Al-Qur’an dengan tajwid yang benar."
+      "description": "Memperbaiki bacaan Al-Qur’an dengan tajwid yang benar.",
+      "details": ["Mempelajari bebearapa hukum-hukum tajwid","Mempelajari Makhraj dan sifat huruf","Mempraktekan makhraj dan sifat dengan benar"]
     },
     {
       "id": 4,
       "name": "📖🕌 Tahfidz",
       "progress": 27,
-
-      "description": "Menghafal Al-Qur’an secara bertahap."
+      "description": "Menghafal Al-Qur’an secara bertahap.",
+      "details": ["Telah menghafalkan Al-Qur’an sebanyak 8 juz","Muraja'ah sebanyak 1 juz perpekan"]
     },
     {
       "id": 5,
       "name": "💻 IT",
       "progress": 100,
-
-      "description": "Pengembangan skill IT dan pemrograman."
+      "description": "Pengembangan skill IT dan pemrograman.",
+      "details": ["Menguasai Html, Css vanilla/tailwind, Javascript, dan React", "Mempelajari UI dan UX","Mempelajari Responsive Design"]
     },
     {
       "id": 6,
       "name": "📚 Bahasa Arab",
       "progress": 75,
-
-      "description": "Pemahaman dan penggunaan bahasa Arab dalam kehidupan sehari-hari."
+      "description": "Pemahaman dan penggunaan bahasa Arab dalam kehidupan sehari-hari.",
+      "details": ["mempelajari beberapa bab nahwu seperti إنّ و أنّ","Mampu berbicara menggunakan bahasa arab","Mampu memahami teks bahasa arab dasar"]
     }
   ],
   "ekskul": [
@@ -49,29 +49,29 @@
       "id": 1,
       "name": "🏊 Renang",
       "progress": 95,
-
-      "description": "Melatih gaya bebas dan gaya katak."
+      "description": "Melatih gaya bebas dan gaya katak.",
+      "details": ["Menguasai Gaya katak dan gaya bebas", "Mampu berenang sejauh 50 meter"]
     },
     {
       "id": 2,
       "name": "⚽ Futsal",
       "progress": 95,
-
-      "description": "Strategi dan teknik futsal."
+      "description": "Strategi dan teknik futsal.",
+       "details": ["Mampu bermain secara EGOISTA!!", "Menguasai beberapa skill futsal","Bermain menjadi striker"]
     },
     {
       "id": 3,
       "name": "🏹 Panahan",
       "progress": 85,
-
-      "description": "Mengasah kemampuan memanah dan tekniknya."
+      "description": "Mengasah kemampuan memanah dan tekniknya.",
+       "details": ["Menguasai Teknik memanah dengan benar", "Mampu memanah sejauh 7 sampai 10 meter"]
     },
     {
       "id": 4,
       "name": "🥋 Taekwondo",
       "progress": 85,
-
-      "description": "Latihan bela diri taekwondo."
+      "description": "Latihan bela diri taekwondo.",
+      "details": ["Menguasai Teknik dasar taekwondo", "Telah meraih sabuk strip hijau", "Memahami beberapa gerakan taekwondo"]
     }
   ]
 }

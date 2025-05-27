@@ -10,31 +10,31 @@
     "title": "Menjadi anggota Tim Keamanan",
     
     "description": "Sebagai anggota OSIS bagian Keamanan, saya bertanggung jawab menjaga ketertiban dan kedisiplinan siswa selama kegiatan sekolah berlangsung. Tugas utama saya meliputi pengawasan saat upacara, mengatur barisan, membantu guru saat ada acara besar, serta memastikan lingkungan sekolah tetap aman dan kondusif bagi seluruh warga sekolah.",
-    "image": "/public/foto3.jpg"
+    "image": "/public/qi.jpg"
   },
   {
     "id": 3,
     "title": "Total hafalan Al-Qur’an",
     "description": "saya telah hafal Al-Qur’an sebanyak 8 juz hafalan Al-Qur’an.",
-    "image": "/public/foto3.jpg"
+    "image": "/public/al-quran.jpg"
   },
   {
     "id": 4,
   "title": "Menyelesaikan beberapa web sederhana",
   "description": "Telah membuat beberapa proyek website seperti kalkulator BMI, pelacak keuangan pribadi, dan aplikasi progres tahunan sekolah menggunakan React.js dan Tailwind CSS secara mandiri dan kolaboratif.",
-  "image": "/public/foto3.jpg"
+  "image": "/public/co.jpg"
 },
 {
   "id": 5,
   "title": "Mampu menguasai gaya katak dan bebas dalam berenang",
   "description": "Menguasai teknik dasar dan lanjutan dalam gaya katak dan gaya bebas serta rutin mengikuti pelatihan renang untuk meningkatkan kemampuan dan daya tahan.",
-  "image": "/public/foto3.jpg"
+  "image": "/public/re.jpg"
 },
 {
   "id": 5,
   "title": "Menjadi Ranking Ke-3 di jejang kelas 10 SMA",
   "description": "Menguasai teknik dasar dan lanjutan dalam gaya katak dan gaya bebas serta rutin mengikuti pelatihan renang untuk meningkatkan kemampuan dan daya tahan.",
-  "image": "/public/foto3.jpg"
+  "image": "/public/top.jpg"
 }
 
 

@@ -4,7 +4,7 @@ import achievementData from './data/achievement.json'
 
 const Achievement = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-6xl mx-auto p-6">
       <motion.h2
         className="text-4xl font-extrabold text-center mb-12 text-purple-900"
         initial={{ opacity: 0, y: -20 }}
@@ -14,7 +14,7 @@ const Achievement = () => {
         🎉 Achievement
       </motion.h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
         {achievementData.map((item) => (
           <motion.div
             key={item.id}
@@ -24,7 +24,6 @@ const Achievement = () => {
             transition={{ delay: 0.3 + item.id * 0.1, duration: 0.6 }}
             whileHover={{ scale: 1.05 }}
           >
-            {/* Gambar di atas judul */}
             {item.image && (
               <img
                 src={item.image}
@@ -32,7 +31,6 @@ const Achievement = () => {
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
             )}
-
             <h3 className="text-xl font-bold text-purple-800 mb-1">{item.title}</h3>
             <p className="text-purple-600 text-sm mb-2 italic">{item.date}</p>
             <p className="text-purple-700">{item.description}</p>
