@@ -54,7 +54,7 @@ const Home = () => {
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center brightness-90"
-        style={{ backgroundImage: "url('/public/f.JPG')" }}
+        style={{ backgroundImage: "url('/f.JPG')" }}
       ></div>
 
       {/* Content */}
